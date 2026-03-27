@@ -1,5 +1,33 @@
 body{
- background-image: url(img/bunbefit.jpg);
-  background-size: cover;        /* Ajusta la imagen a toda la pantalla */
-  background-repeat: no-repeat;  /* Evita que se repita */
+ background: linear-gradient(to right,rgb(221, 111, 111), #ff0000, #000000);
+  color: white;
+  
+}
+
+.navbar {
+  display: flex;              /* 👈 en fila */
+  justify-content: center;    /* centrado */
+  gap: 20px;                  /* separación */
+
+  background: linear-gradient(to right,white, #f80202, #f1f0f0);
+  padding: 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+#logoInicio {
+  width: 400px;
+  border-radius: 80px;
+  box-shadow: 10,20,10,20;
+  display: block;
+  margin: 0 auto;
+}
+p{
+
+  text-align: center;
+  
 }
