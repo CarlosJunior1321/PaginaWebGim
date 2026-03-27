@@ -1,0 +1,28 @@
+body{
+ 
+    background:linear-gradient(to right, red, black);
+    text-align: center;
+    color:white;
+}
+
+#logoHistoria{
+
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 80px;
+}
+
+p{
+    text-align: center;
+    color: white;
+}
+
+#botonRegreso{
+    color: white;
+    background: linear-gradient(to right,black, rgb(238, 4, 4), black);
+    border-radius: 50px;
+    text-decoration: none;
+    justify-content:center ;
+}
+
